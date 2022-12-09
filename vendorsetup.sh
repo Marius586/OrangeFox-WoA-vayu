@@ -59,9 +59,6 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
         export FOX_DELETE_AROMAFM=1
         export FOX_BUGGED_AOSP_ARB_WORKAROUND="1616300800"; # Sun 21 Mar 04:26:40 GMT 2021
 
-	# use magisk 25.1 for the magisk addon
-	export FOX_USE_SPECIFIC_MAGISK_ZIP=~/Magisk/Magisk-v25.1.zip
-
         # OTA
         export OF_KEEP_DM_VERITY=1
         export OF_SUPPORT_ALL_BLOCK_OTA_UPDATES=1
