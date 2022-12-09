@@ -65,6 +65,9 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
         export OF_FIX_OTA_UPDATE_MANUAL_FLASH_ERROR=1
         export OF_DISABLE_MIUI_OTA_BY_DEFAULT=1
 
+	# try to prevent potential data format errors
+	export OF_UNBIND_SDCARD_F2FS=1
+
 	# screen settings
 	export OF_SCREEN_H=2400
 	export OF_STATUS_H=100
