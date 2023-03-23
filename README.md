@@ -21,13 +21,13 @@
 
 ---
 ## Kernel sources
-"https://github.com/Jebaitedneko/android_kernel_xiaomi_vayu.git" (-b base)
+"https://github.com/Jebaitedneko/android_kernel_xiaomi_vayu.git" (-b r2)
 
 ---
 ## Copyright notice
  ```
   /*
-  *  Copyright (C) 2021 The OrangeFox Recovery Project
+  *  Copyright (C) 2021-2023 The OrangeFox Recovery Project
   *
   * This program is free software: you can redistribute it and/or modify
   * it under the terms of the GNU General Public License as published by
